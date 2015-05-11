@@ -10,10 +10,10 @@ It implements a BMI(Bodily Mass Index) Calculator.
 * Installed R and Rstudio
 * Create a folder and put server.R ui.R and folder images in it.
 * In R Studio : 
-   1. 'setwd("folder_path")' *(eg. 'setwd("C:/Users/Kiki/Documents/bmi")')*
-   2. 'install.packages("shiny")'
-   3. 'library(shiny)'
-   4. 'runApp()'
+   1. `setwd("folder_path")` *(eg. 'setwd("C:/Users/Kiki/Documents/bmi")')*
+   2. `install.packages("shiny")`
+   3. `library(shiny)`
+   4. `runApp()`
 * And done!
 
 **To use the application:**
