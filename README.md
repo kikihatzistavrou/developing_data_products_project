@@ -7,7 +7,7 @@ It is a web app implemented with R and shiny package.
 It implements a BMI(Bodily Mass Index) Calculator.
 
 To run the apllication you must have:
-*1) Installed R and Rstudio
+* Installed R and Rstudio
 2) Create a folder and put server.R ui.R and folder images in it.
 *3) In R Studio : 
 *    a) setwd("folder_path") (eg. setwd("C:/Users/Kiki/Documents/bmi") if the name of the folder that you created is "bmi")
@@ -17,7 +17,7 @@ To run the apllication you must have:
 4) And done!
 
 To use the application:
-1) Select your Gender. Click on the radio button to choose.
+* Select your Gender. Click on the radio button to choose.
 2) Move the slider in order to define your weight.
 3) Move the slider in order to define your height.
 4) In the main panel you can see:
