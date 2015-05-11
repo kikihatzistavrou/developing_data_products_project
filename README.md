@@ -10,10 +10,10 @@ To run the apllication you must have:
 * Installed R and Rstudio
 * Create a folder and put server.R ui.R and folder images in it.
 * In R Studio : 
-   1. setwd("folder_path") (eg. setwd("C:/Users/Kiki/Documents/bmi") if the name of the folder that you created is "bmi")
-   2.  install.packages("shiny")
-*    c) library(shiny)
-*    d) runApp()
+   1. setwd("folder_path") *(eg. setwd("C:/Users/Kiki/Documents/bmi") if the name of the folder that you created is "bmi")*
+   2. install.packages("shiny")
+   3. library(shiny)
+   4. runApp()
 * And done!
 
 To use the application:
@@ -21,7 +21,7 @@ To use the application:
 * Move the slider in order to define your weight.
 * Move the slider in order to define your height.
 * In the main panel you can see:
-    a) the weight you entered
-    b) the height ypu entered
-    c) your bmi
-    d) the meaning of your bmi and some advice about you own health.
+    1. the weight you entered
+    2. the height ypu entered
+    3. your bmi
+    4. the meaning of your bmi and some advice about you own health.
