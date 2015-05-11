@@ -37,9 +37,9 @@ shinyUI(pageWithSidebar(
                                c("Male" = "male",
                                  "Female" = "female")),
             sliderInput('weight','Insert your weight (kg)',
-                         60,min=30,max=400,step=1),
+                         60,min=30,max=250,step=1),
             sliderInput('height','Insert your height (cm)',
-                         165,min=100,max=300,step=1)
+                         165,min=100,max=250,step=1)
             #submitButton('Submit'),
             
             

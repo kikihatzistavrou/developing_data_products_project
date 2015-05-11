@@ -20,11 +20,11 @@ shinyServer(
       function(input,output){
             w<-reactive(input$weight)
             #print the weight you entered
-            output$inputWeight<-renderText({paste0("Weight: ", w())})
+            output$inputWeight<-renderText({paste0("Weight: ", w(), " kg")})
             
             h<-reactive(input$height)
             #print the height you entered
-            output$inputHeight<-renderText({paste0("Height: ", h())})
+            output$inputHeight<-renderText({paste0("Height: ", h(), " cm")})
             
             #prints the bmi that calculated with the bmi function with
             #inputs:
