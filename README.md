@@ -6,11 +6,11 @@ It is a web app implemented with R and shiny package.
 
 It implements a BMI(Bodily Mass Index) Calculator.
 
->To run the apllication you must have:
->1) Installed R and Rstudio
->2) Create a folder and put server.R ui.R and folder images in it.
-3) In R Studio : 
-    a) setwd("folder_path") (eg. setwd("C:/Users/Kiki/Documents/bmi") if the name of the folder that you created is "bmi")
+To run the apllication you must have:
+*1) Installed R and Rstudio
+*2) Create a folder and put server.R ui.R and folder images in it.
+*3) In R Studio : 
+*    a) setwd("folder_path") (eg. setwd("C:/Users/Kiki/Documents/bmi") if the name of the folder that you created is "bmi")
     b) install.packages("shiny")
     c) library(shiny)
     d) runApp()
